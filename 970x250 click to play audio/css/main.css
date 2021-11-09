@@ -1,0 +1,51 @@
+body {
+    padding: 0px;
+    height: 250px;
+    width: 970px;
+}
+
+#ad {
+    position: relative;
+    height: 250px;
+    width: 970px;
+    overflow-x: hidden;
+    overflow-y: hidden; 
+}
+
+#overlay {
+    position: absolute;
+    pointer-events: none; 
+}
+
+#ad video {
+    position: absolute;
+    margin-left: 260px;
+    margin-top: -20px;
+    height: 400px;
+    pointer-events: auto;
+}
+
+#button{
+    position: absolute;
+    width: 172.5px;
+    margin-top: 142px;
+    margin-left: 20px;
+    pointer-events: auto;
+}
+
+#play{
+    position: absolute;
+    height: 30px;
+    margin-left: 920px;
+    margin-top: 20px;
+    pointer-events: none;
+}
+
+#pause{
+    position: absolute;
+    height: 30px;
+    margin-left: 920px;
+    margin-top: 20px;
+    display: none;
+    pointer-events: none;
+}

@@ -1,0 +1,23 @@
+body {
+    padding: 0px;
+    height: 250px;
+    width: 970px;
+}
+
+#ad {
+    position: relative;
+    height: 250px;
+    width: 970px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#ad img {
+    position: absolute;
+}
+
+#ad video {
+    position: absolute;
+    margin-left: 300px;
+    margin-top: -80px;
+}

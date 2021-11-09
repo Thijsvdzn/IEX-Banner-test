@@ -1,0 +1,35 @@
+body {
+    padding: 0px;
+    height: 250px;
+    width: 970px;
+}
+
+#ad {
+    position: relative;
+    height: 250px;
+    width: 970px;
+    overflow-x: hidden;
+    overflow-y: hidden; 
+}
+
+#overlay {
+    position: absolute;
+    pointer-events: none; 
+}
+
+#video {
+    position: absolute;
+    margin-left: 290px;
+    margin-top: -50px;
+    height: 400px;
+    width: 700px;
+    pointer-events: auto;
+}
+
+#button{
+    position: absolute;
+    width: 172.5px;
+    margin-top: 142px;
+    margin-left: 20px;
+    pointer-events: auto;
+}
